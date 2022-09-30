@@ -1,0 +1,17 @@
+E:\LabManagementApp\bin\Debug\LabManagementApp.exe
+E:\LabManagementApp\bin\Debug\LabManagementApp.pdb
+E:\LabManagementApp\obj\x86\Debug\LabManagementApp.frmLogin.resources
+E:\LabManagementApp\obj\x86\Debug\LabManagementApp.frmreport.resources
+E:\LabManagementApp\obj\x86\Debug\LabManagementApp.Properties.Resources.resources
+E:\LabManagementApp\obj\x86\Debug\LMSApp.csproj.GenerateResource.Cache
+E:\LabManagementApp\obj\x86\Debug\LabManagementApp.exe
+E:\LabManagementApp\obj\x86\Debug\LabManagementApp.pdb
+E:\LMSApp\bin\Debug\LMSApp.exe
+E:\LMSApp\bin\Debug\LMSApp.pdb
+E:\LMSApp\obj\x86\Debug\LabManagementApp.frmLogin.resources
+E:\LMSApp\obj\x86\Debug\LabManagementApp.frmreport.resources
+E:\LMSApp\obj\x86\Debug\LMSApp.Properties.Resources.resources
+E:\LMSApp\obj\x86\Debug\LMSApp.csproj.GenerateResource.Cache
+E:\LMSApp\obj\x86\Debug\LMSApp.exe
+E:\LMSApp\obj\x86\Debug\LMSApp.pdb
+E:\LMSApp\obj\x86\Debug\LabManagementApp.Installer1.resources

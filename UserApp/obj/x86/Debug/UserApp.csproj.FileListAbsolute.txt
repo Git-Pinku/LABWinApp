@@ -1,0 +1,4 @@
+E:\LMSApp\UserApp\bin\Debug\UserApp.exe
+E:\LMSApp\UserApp\bin\Debug\UserApp.pdb
+E:\LMSApp\UserApp\obj\x86\Debug\UserApp.exe
+E:\LMSApp\UserApp\obj\x86\Debug\UserApp.pdb

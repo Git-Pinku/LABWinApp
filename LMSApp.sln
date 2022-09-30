@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LMSApp", "LMSApp.csproj", "{ED8499C7-F3BC-4C66-8AB0-908F548BABEE}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "LMS_App", "Setup_LMS\Setup_LMS.vdproj", "{F895FE50-E5A0-4E76-910E-E31B32CF3F22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserApp", "UserApp\UserApp.csproj", "{451AD917-C2BE-412A-8E87-FC68485CD283}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED8499C7-F3BC-4C66-8AB0-908F548BABEE}.Debug|x86.ActiveCfg = Debug|x86
+		{ED8499C7-F3BC-4C66-8AB0-908F548BABEE}.Debug|x86.Build.0 = Debug|x86
+		{ED8499C7-F3BC-4C66-8AB0-908F548BABEE}.Release|x86.ActiveCfg = Release|x86
+		{ED8499C7-F3BC-4C66-8AB0-908F548BABEE}.Release|x86.Build.0 = Release|x86
+		{F895FE50-E5A0-4E76-910E-E31B32CF3F22}.Debug|x86.ActiveCfg = Debug
+		{F895FE50-E5A0-4E76-910E-E31B32CF3F22}.Release|x86.ActiveCfg = Release
+		{451AD917-C2BE-412A-8E87-FC68485CD283}.Debug|x86.ActiveCfg = Debug|x86
+		{451AD917-C2BE-412A-8E87-FC68485CD283}.Debug|x86.Build.0 = Debug|x86
+		{451AD917-C2BE-412A-8E87-FC68485CD283}.Release|x86.ActiveCfg = Release|x86
+		{451AD917-C2BE-412A-8E87-FC68485CD283}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

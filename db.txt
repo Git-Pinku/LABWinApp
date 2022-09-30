@@ -1,0 +1,75 @@
+##Create Database
+
+.open labdb.db
+
+
+CREATE TABLE users(
+   userid INT PRIMARY KEY NOT NULL,
+   username TEXT NOT NULL,
+   useremail CHAR(100),
+   userpassword CHAR(100),
+   login_timestamp TEXT
+);
+
+
+INSERT INTO users VALUES (1,'admin','admin@admin.com','admin',DateTime('now'));
+
+
+CREATE TABLE report(
+   reportid INTEGER PRIMARY KEY AUTOINCREMENT,
+   username TEXT NOT NULL,
+   email CHAR(100),
+   phone CHAR(100),
+   address TEXT,
+   expname CHAR(200),
+   startdate TEXT,
+   enddate TEXT,
+   desc TEXT,
+   reportfilename CHAR(200),
+   filepath TEXT,
+   isactive INT
+);
+l
+CREATE TABLE expriment_report(
+   reportid INTEGER PRIMARY KEY AUTOINCREMENT,
+   name TEXT NOT NULL,
+   orgname CHAR(200),
+   visitorname CHAR(200),
+   projectno CHAR(200),
+   technique CHAR(200),
+   sampleno CHAR(200),
+   startdate TEXT,
+   enddate TEXT,
+   desc TEXT,
+   email CHAR(200),
+   phone CHAR(200),
+   reportfilename CHAR(200),
+   filepath TEXT,
+   isactive INT
+);
+
+
+
+CREATE TABLE time_slot(
+   slotid INTEGER PRIMARY KEY AUTOINCREMENT,
+   slot CHAR(200),
+   isactive INT
+   );
+
+INSERT INTO time_slot VALUES ('9AM-10AM',1);
+INSERT INTO time_slot VALUES ('10AM-11AM',1);
+
+update report set filepath = 'E:\LMSApp\bin\Debug\LMSreport';
+
+SQLite version 3.39.2 2022-07-21 15:24:47
+Enter ".help" for usage hints.
+Connected to a transient in-memory database.
+Use ".open FILENAME" to reopen on a persistent database.
+sqlite> .open labdb.db
+sqlite> .database
+sqlite> .tables
+expriment_report  report            users
+sqlite> select * from users;
+1|admin|admin@admin.com|admin|19-08-2022 10:02 AM
+sqlite> select * from expriment_report;
+sqlite>
