@@ -49,14 +49,15 @@ namespace LabManagementApp
            // dtp_etime.CustomFormat = "tt hh:mm:ss";
             //dtp_stime.Text = DateTime.Now.TimeOfDay.ToString();
            // dtp_etime.Text = DateTime.Now.TimeOfDay.ToString();
-            ListTimeSlot = GetTimeSlot();
-            AllListTimeSlot = GetTimeSlot();
-            cmboTimeslot.DataSource = null;
-            cmboTimeslot.DataSource = GetUpdatedTimeSlot(dtp_timeslot.Text);
-
-            using (DataTable dt = objdb.GetExprimentReports())
+            try
             {
-                try
+
+                ListTimeSlot = GetTimeSlot();
+                AllListTimeSlot = GetTimeSlot();
+                cmboTimeslot.DataSource = null;
+                cmboTimeslot.DataSource = GetUpdatedTimeSlot(dtp_timeslot.Text);
+
+                using (DataTable dt = objdb.GetExprimentReports())
                 {
                     dg_report.AutoGenerateColumns = false;
                     dg_report.ColumnCount = 15;
@@ -71,7 +72,7 @@ namespace LabManagementApp
 
                     dg_report.Columns[2].HeaderText = "Organization";
                     dg_report.Columns[2].DataPropertyName = "orgname";
-                   // dg_report.Columns[2].Width = 100;
+                    // dg_report.Columns[2].Width = 100;
 
                     dg_report.Columns[3].HeaderText = "Visitor Name";
                     dg_report.Columns[3].DataPropertyName = "visitorname";
@@ -83,7 +84,7 @@ namespace LabManagementApp
 
                     dg_report.Columns[5].HeaderText = "Technique";
                     dg_report.Columns[5].DataPropertyName = "technique";
-                    
+
 
                     dg_report.Columns[6].HeaderText = "No Of Sample";
                     dg_report.Columns[6].DataPropertyName = "sampleno";
@@ -97,7 +98,7 @@ namespace LabManagementApp
 
                     dg_report.Columns[9].HeaderText = "Description";
                     dg_report.Columns[9].DataPropertyName = "desc";
-                    
+
 
                     dg_report.Columns[10].HeaderText = "Email";
                     dg_report.Columns[10].DataPropertyName = "email";
@@ -122,13 +123,13 @@ namespace LabManagementApp
 
                     dg_report.DataSource = dt;
                 }
-                catch (Exception ex)
-                {
-                    objdb.WriteLog();
-                    objdb.WriteLog(ex.Message+"\n"+ex.StackTrace);
-                }
             }
-
+            catch (Exception ex)
+            {
+                objdb.WriteLog();
+                objdb.WriteLog(ex.Message + "\n" + ex.StackTrace);
+            }
+ 
             // LoadDownloadGrid();
         }
         private void btn_browse_Click(object sender, EventArgs e)
@@ -323,13 +324,18 @@ namespace LabManagementApp
         }
         private void btn_Clear_Click(object sender, EventArgs e)
         {
-            clearAll();
+            try
+            {
+                clearAll();
 
-            btn_insert.Enabled = true;
-            btn_update.Enabled = false;
-            cmboTimeslot.DataSource = null;
-            cmboTimeslot.DataSource = GetUpdatedTimeSlot(dtp_timeslot.Text);
-            dg_report.DataSource = objdb.GetExprimentReports();
+                btn_insert.Enabled = true;
+                btn_update.Enabled = false;
+                cmboTimeslot.DataSource = null;
+                cmboTimeslot.DataSource = GetUpdatedTimeSlot(dtp_timeslot.Text);
+                dg_report.DataSource = objdb.GetExprimentReports();
+            }
+            catch (Exception ex)
+            { objdb.WriteLog(ex.Message + "\n" + ex.StackTrace); }
         }
 
         private void tsm_addnew_Click(object sender, EventArgs e)
@@ -366,6 +372,7 @@ namespace LabManagementApp
                     cmboTimeslot.DataSource = GetUpdatedTimeSlot(dtp_timeslot.Text);
                     dg_report.DataSource = objdb.GetExprimentReports();
                     lbl_msg.Text = "Please Click on INSERT button to add New";
+                    Application.DoEvents();
                 }
             }
             catch (Exception ex)
@@ -411,6 +418,7 @@ namespace LabManagementApp
                     btn_insert.Enabled = false;
                     btn_update.Enabled = true;
                     lbl_msg.Text = "Please Click on UPDATE button after edit";
+                    Application.DoEvents();
                 }
                
             }
@@ -522,6 +530,7 @@ namespace LabManagementApp
                 txt_description.Text = string.Empty;
                 txt_filepath.Text = string.Empty;
                 lbl_msg.Visible = false;
+                Application.DoEvents();
             }
             catch (Exception ex)
             {
@@ -1000,17 +1009,33 @@ namespace LabManagementApp
 
         private void btn_logout_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Data has been saved successfully!", "Log out", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            this.Close();
+            try
+            {
+                MessageBox.Show("Data has been saved successfully!", "Log out", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                this.Close();
+            }
+            catch (Exception ex)
+            {
+                this.Close();
+                objdb.WriteLog(ex.Message + "\n" + ex.StackTrace);
+            }
         }
 
-        
+        private void dtp_timeslot_ValueChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                cmboTimeslot.DataSource = null;
+                cmboTimeslot.DataSource = GetUpdatedTimeSlot(dtp_timeslot.Text);
+                dg_report.DataSource = objdb.GetExprimentReports();
+                Application.DoEvents();
+            }
+            catch (Exception ex)
+            {
+                objdb.WriteLog(ex.Message + "\n" + ex.StackTrace);
+            }
+        }
 
-        
-
-        
-
-       
         
        
     }

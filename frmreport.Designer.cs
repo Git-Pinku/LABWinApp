@@ -371,6 +371,7 @@
             this.dtp_timeslot.Name = "dtp_timeslot";
             this.dtp_timeslot.Size = new System.Drawing.Size(135, 21);
             this.dtp_timeslot.TabIndex = 0;
+            this.dtp_timeslot.ValueChanged += new System.EventHandler(this.dtp_timeslot_ValueChanged);
             // 
             // dtp_etime
             // 

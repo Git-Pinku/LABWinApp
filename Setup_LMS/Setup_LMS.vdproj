@@ -15,6 +15,12 @@
     {
         "Entry"
         {
+        "MsmKey" = "8:_37B390C5DBFF4343B59BA861C9CADF65"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_454841D3B2FE4853AF6D78B60D1F487C"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -27,20 +33,32 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_5B971F105ADD5D7D0410F609E48CB921"
-        "OwnerKey" = "8:_FBBB7B835E934A49A3F9507E73307353"
+        "MsmKey" = "8:_5B5216A724E7410BBDADC6115B04F36A"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_5B971F105ADD5D7D0410F609E48CB921"
-        "OwnerKey" = "8:_C1C39261F4654DA08C246CB2BDE17D38"
+        "OwnerKey" = "8:_62FA13D51F1A41F3BA65CBE2FC0830B7"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_5B971F105ADD5D7D0410F609E48CB921"
-        "OwnerKey" = "8:_FB89483E85A1498C89F0B5D7E553958E"
+        "OwnerKey" = "8:_37B390C5DBFF4343B59BA861C9CADF65"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_5B971F105ADD5D7D0410F609E48CB921"
+        "OwnerKey" = "8:_5B5216A724E7410BBDADC6115B04F36A"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_62FA13D51F1A41F3BA65CBE2FC0830B7"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -57,25 +75,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_C1C39261F4654DA08C246CB2BDE17D38"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_C5E7F5788FD54407A69D06B60637CC99"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_FB89483E85A1498C89F0B5D7E553958E"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_FBBB7B835E934A49A3F9507E73307353"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -88,19 +88,19 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_C1C39261F4654DA08C246CB2BDE17D38"
+        "OwnerKey" = "8:_37B390C5DBFF4343B59BA861C9CADF65"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_FB89483E85A1498C89F0B5D7E553958E"
+        "OwnerKey" = "8:_5B5216A724E7410BBDADC6115B04F36A"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_FBBB7B835E934A49A3F9507E73307353"
+        "OwnerKey" = "8:_62FA13D51F1A41F3BA65CBE2FC0830B7"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -248,6 +248,37 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_5B5216A724E7410BBDADC6115B04F36A"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:UserApp, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86"
+                "ScatterAssemblies"
+                {
+                    "_5B5216A724E7410BBDADC6115B04F36A"
+                    {
+                    "Name" = "8:UserApp.exe"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:..\\UserApp\\bin\\Debug\\UserApp.exe"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_1A4425BD79E142F0947A629638A8C59E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_5B971F105ADD5D7D0410F609E48CB921"
             {
             "AssemblyRegister" = "3:1"
@@ -257,11 +288,11 @@
                 {
                     "_5B971F105ADD5D7D0410F609E48CB921"
                     {
-                    "Name" = "8:System.Data.SQLite.dll"
+                    "Name" = "8:System.Data.SQLite.DLL"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:System.Data.SQLite.dll"
+            "SourcePath" = "8:System.Data.SQLite.DLL"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_1A4425BD79E142F0947A629638A8C59E"
@@ -277,6 +308,37 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_62FA13D51F1A41F3BA65CBE2FC0830B7"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:LMSApp, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86"
+                "ScatterAssemblies"
+                {
+                    "_62FA13D51F1A41F3BA65CBE2FC0830B7"
+                    {
+                    "Name" = "8:LMSApp.exe"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:..\\bin\\Debug\\LMSApp.exe"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_1A4425BD79E142F0947A629638A8C59E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9054A4C2DADD457CBFFCDEE4E0FE97E5"
@@ -319,72 +381,10 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_C1C39261F4654DA08C246CB2BDE17D38"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:UserApp, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86"
-                "ScatterAssemblies"
-                {
-                    "_C1C39261F4654DA08C246CB2BDE17D38"
-                    {
-                    "Name" = "8:UserApp.exe"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:..\\UserApp\\bin\\Debug\\UserApp.exe"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_1A4425BD79E142F0947A629638A8C59E"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C5E7F5788FD54407A69D06B60637CC99"
             {
             "SourcePath" = "8:..\\Image\\LMS-installer-splash.jpg"
             "TargetName" = "8:LMS-installer-splash.jpg"
-            "Tag" = "8:"
-            "Folder" = "8:_1A4425BD79E142F0947A629638A8C59E"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_FB89483E85A1498C89F0B5D7E553958E"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:LMSApp, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86"
-                "ScatterAssemblies"
-                {
-                    "_FB89483E85A1498C89F0B5D7E553958E"
-                    {
-                    "Name" = "8:LMSApp.exe"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:..\\bin\\Debug\\LMSApp.exe"
-            "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_1A4425BD79E142F0947A629638A8C59E"
             "Condition" = "8:"
@@ -458,7 +458,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:LMSApp"
         "ProductCode" = "8:{3352CD32-552D-4CB3-B55E-95950145131B}"
-        "PackageCode" = "8:{6E290920-21BD-40F8-BEF0-47B4F367350B}"
+        "PackageCode" = "8:{98ED6689-9B13-443E-8390-C020AFCB46F0}"
         "UpgradeCode" = "8:{11CB2CB0-D4F6-46AE-B6D7-5929E75D712C}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -578,7 +578,7 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_2C49F4B06B1946DF8FC353F23EEB0201"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_8E4ACB5D3A96474BB7522C408EA4D537"
             {
             "Name" = "8:LMSApp"
             "Arguments" = "8:"
@@ -586,7 +586,7 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_FB89483E85A1498C89F0B5D7E553958E"
+            "Target" = "8:_62FA13D51F1A41F3BA65CBE2FC0830B7"
             "Folder" = "8:_3763ABDA85C74B91A08F3763FC541FC1"
             "WorkingFolder" = "8:_1A4425BD79E142F0947A629638A8C59E"
             "Icon" = "8:_4A8B135A56504451AFCBC5F904AA4364"
@@ -983,7 +983,7 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_50EAB3E3ACA64553A9764EB1A202468E"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_07C6C782CD23476791913B88DE5D68F9"
             {
             "SourcePath" = "8:"
             "TargetName" = "8:"
@@ -1011,7 +1011,7 @@
                 {
                 }
             }
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_FBBB7B835E934A49A3F9507E73307353"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_37B390C5DBFF4343B59BA861C9CADF65"
             {
             "SourcePath" = "8:..\\obj\\x86\\Debug\\LMSApp.exe"
             "TargetName" = "8:"
