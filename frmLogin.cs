@@ -14,11 +14,12 @@ namespace LabManagementApp
     public partial class frmLogin : Form
     {
 
-        clsdb objdb =new clsdb();
+        clsdb objdb; 
 
         public frmLogin()
         {
             InitializeComponent();
+            objdb = new clsdb();
         }
         private void Clear()
         {

@@ -15,3 +15,13 @@ E:\LMSApp\obj\x86\Debug\LMSApp.csproj.GenerateResource.Cache
 E:\LMSApp\obj\x86\Debug\LMSApp.exe
 E:\LMSApp\obj\x86\Debug\LMSApp.pdb
 E:\LMSApp\obj\x86\Debug\LabManagementApp.Installer1.resources
+G:\LMSApp\obj\x86\Debug\LMSApp.exe
+G:\LMSApp\obj\x86\Debug\LMSApp.pdb
+G:\LMSApp\bin\Debug\LMSApp.exe
+G:\LMSApp\bin\Debug\LMSApp.pdb
+G:\LMSApp\obj\x86\Debug\LMSApp.csprojResolveAssemblyReference.cache
+G:\LMSApp\obj\x86\Debug\LabManagementApp.frmLogin.resources
+G:\LMSApp\obj\x86\Debug\LabManagementApp.frmreport.resources
+G:\LMSApp\obj\x86\Debug\LabManagementApp.Installer1.resources
+G:\LMSApp\obj\x86\Debug\LMSApp.Properties.Resources.resources
+G:\LMSApp\obj\x86\Debug\LMSApp.csproj.GenerateResource.Cache

@@ -1,0 +1,60 @@
+
+C:\Users\Pinku>E
+'E' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Pinku>E:
+
+E:\>cd LMSApp
+
+E:\LMSApp>git init -b main
+warning: re-init: ignored --initial-branch=main
+Reinitialized existing Git repository in E:/LMSApp/.git/
+
+E:\LMSApp>git add . && git commit -m "initial commit"
+[master 66b704e] initial commit
+ 16 files changed, 123 insertions(+), 97 deletions(-)
+
+E:\LMSApp>git remote add origin https://github.com/Git-Pinku/LABWinApp.git
+error: remote origin already exists.
+
+E:\LMSApp>$ git remote set-url origin https://github.com/Git-Pinku/LABWinApp.git
+
+'$' is not recognized as an internal or external command,
+operable program or batch file.
+
+E:\LMSApp>git remote set-url origin https://github.com/Git-Pinku/LABWinApp.git
+
+E:\LMSApp> git push origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/Git-Pinku/LABWinApp.git'
+
+E:\LMSApp>git push origin master
+Enumerating objects: 53, done.
+Counting objects: 100% (53/53), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (21/21), done.
+Writing objects: 100% (27/27), 2.10 MiB | 1.11 MiB/s, done.
+Total 27 (delta 17), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (17/17), completed with 16 local objects.
+To https://github.com/Git-Pinku/LABWinApp.git
+   988e3b5..66b704e  master -> master
+
+E:\LMSApp>git add --all :/
+
+E:\LMSApp>git commit -am 'message'
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+E:\LMSApp>git push -u origin master
+Everything up-to-date
+branch 'master' set up to track 'origin/master'.
+
+E:\LMSApp>
+E:\LMSApp>git push -u origin master
+Everything up-to-date
+branch 'master' set up to track 'origin/master'.
+
+E:\LMSApp>
